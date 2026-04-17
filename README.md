@@ -1,5 +1,9 @@
 Title: Frequency-Aware Inference-Time Feature Refinement for Zero-Shot Anomaly Detection
+
 Zero-shot anomaly detection leveraging vision-language models provides a viable paradigm for privacy-sensitive scenarios. However, pretrained networks prioritize the global coherence of visual representations, which suppresses latent high- and low-frequency cues that deviate from the dominant patterns, resulting in the omission of critical anomaly-related information. In this paper, we propose Frequency-Aware Inference-Time Feature Refinement (FA-ITFR), a training-free method that strengthens the sensitivity of intermediate and output-layer features to frequency variations, restoring richer visual representations. Frequency-Aware Global-Local Interaction Attention (F-GLIA), constructed during feature extraction to capture latent multi-band Fourier patterns in the global space, propagates frequency-enhanced signals to the local semantic space via an information flow mechanism, and selectively reinforces anomaly-sensitive components, thereby enhancing anomaly perception. To enhance the fidelity of output-layer features, we propose a dual-branch framework combining Multi-Resolution Fusion (MRF) and Dual-Wavelet Refinement (DWR). MRF projects local features across multiple spatial resolutions to compensate for fine-grained structural cues attenuated in single-scale processing, while DWR employs a dual-wavelet basis to disentangle features into high-frequency detail and low-frequency structural components, utilizing cross-frequency fusion to emphasize anomaly-relevant subbands.
+
+<img width="709" height="425" alt="image" src="https://github.com/user-attachments/assets/de120788-cefa-42c1-bf13-7200a73ffba1" />
+
 
 This repository provides code that combines the backbone network with FA-ITFR, designed for easy reproduction and evaluation without requiring large amounts of training data.
 For required packages, please refer to requirements.txt.
