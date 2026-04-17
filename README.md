@@ -8,23 +8,8 @@ After downloading the mvtec AD dataset, please unzip the json_file folder and ex
 Generate the dataset JSON: Take MVTec AD for example (With multiple anomaly categories)
 Structure of MVTec Folder:
 
-mvtec/
-│
-├── meta.json
-│
-├── bottle/
-│   ├── ground_truth/
-│   │   ├── broken_large/
-│   │   │   └── 000_mask.png
-|   |   |   └── ...
-│   │   └── ...
-│   └── test/
-│       ├── broken_large/
-│       │   └── 000.png
-|       |   └── ...
-│       └── ...
-│   
-└── ...
+<img width="369" height="444" alt="image" src="https://github.com/user-attachments/assets/e8034304-327e-4a13-8c8d-ef6e39eedcaa" />
+
 
 
 We provide a script for the data in the json_file folder. Select the script and execute it. The generated JSON file stores all the information required for FA-ITFR.
