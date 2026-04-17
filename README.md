@@ -17,9 +17,13 @@ Structure of MVTec Folder:
 
 
 We provide a script for the data in the json_file folder. Select the script and execute it. The generated JSON file stores all the information required for FA-ITFR.
+
 python mvtec.py
 
-Additionally, a cache file package is required, which we have publicly released at the link https://pan.baidu.com/s/1nUXk6_CwcVwWuUjyc9Tugw. The extraction code is 0417. After downloading, please place it in the project directory and unzip it for use.
+Additionally, a cache file package is required, which we have publicly released at the link https://pan.baidu.com/s/1nUXk6_CwcVwWuUjyc9Tugw. The extraction code is 0417. 
+
+After downloading, please place it in the project directory and unzip it for use.
 
 After preparing the dataset, please unzip all publicly available compressed files, with the models located in the `models` package. Taking the MVTEC AD dataset as an example, execute the file `test.py`. Inside the file, under "metrics", you can select either "image-level" or "pixel-level" to obtain the abnormal image classification results and abnormal region segmentation results, respectively. The results will be automatically stored in the `result` file.
+
 Run FA-ITFR: python test.py
