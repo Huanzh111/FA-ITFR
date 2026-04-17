@@ -7,6 +7,7 @@ Dataset: For dataset and environment information, please refer to AnomalyCLIP, l
 After downloading the mvtec AD dataset, please unzip the json_file folder and execute the mvtec.py file to obtain the dataset JSON file required by the model.
 Generate the dataset JSON: Take MVTec AD for example (With multiple anomaly categories)
 Structure of MVTec Folder:
+
 mvtec/
 │
 ├── meta.json
@@ -24,6 +25,8 @@ mvtec/
 │       └── ...
 │   
 └── ...
+
+
 We provide a script for the data in the json_file folder. Select the script and execute it. The generated JSON file stores all the information required for FA-ITFR.
 python mvtec.py
 
